@@ -1,0 +1,3 @@
+Picom is a lightweight compositor for X11.
+
+To customize copy picom.sample.conf to $HOME/.config/picom/picom.conf
