@@ -90,8 +90,8 @@ cd build
   DESTDIR=$PKG ninja install
 cd ..
 
-#install -Dm644 picom.sample.conf "$PKG/etc/xdg/picom.conf"
-install -Dm644 picom.sample.conf "$PKG/usr/doc/picom-$VERSION/picom.sample.conf"
+# Install sample config
+install -Dm644 picom.sample.conf "$PKG/etc/xdg/picom.sample.conf"
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
