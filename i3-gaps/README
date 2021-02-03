@@ -1,0 +1,6 @@
+i3-gaps is a fork of i3wm, a tiling window manager for X11.
+
+It is kept up to date with upstream, adding a few additional features 
+such as gaps between windows.
+
+i3status is optional - to provide a system status bar.
