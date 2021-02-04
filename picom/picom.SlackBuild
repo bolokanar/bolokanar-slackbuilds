@@ -90,6 +90,10 @@ cd build
   DESTDIR=$PKG ninja install
 cd ..
 
+# Do not overwrite compton
+rm -v $PKG/usr/bin/compton*
+rm -v $PKG/usr/share/applications/compton.desktop
+
 # Install sample config
 install -Dm644 picom.sample.conf "$PKG/etc/xdg/picom.conf.sample"
 
