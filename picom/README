@@ -1,5 +1,5 @@
 Picom is a lightweight compositor for X11.
 
 To customize:
-  - copy /etc/xdg/picom.sample.conf to ~/.config/picom/picom.conf
+  - copy /etc/xdg/picom.conf.sample to ~/.config/picom/picom.conf
   - edit picom.conf to your liking
