@@ -5,6 +5,6 @@ DOWNLOAD="https://github.com/gnome-terminator/terminator/releases/download/v2.1.
 MD5SUM="a623dc2065011d92da5f63acb3fb2cf5"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES="psutil wheel configobj"
+REQUIRES="python3-psutil wheel configobj"
 MAINTAINER="S. S. Bolokanar"
 EMAIL="sbolokanov@abv.bg"
